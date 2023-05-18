@@ -1,0 +1,25 @@
+def generate_character():
+    character = {
+        "skin_color": "black",
+        "eye_shape": "large round",
+        "ear_shape": "pointy",
+        "hair_color": "blue",
+        "hair_style": "pointy",
+        "clothing": "none",
+        "shoes": "pink high heels"
+    }
+    return character
+
+def display_character(character):
+    print("Character Design:")
+    print(f"Skin Color: {character['skin_color']}")
+    print(f"Eye Shape: {character['eye_shape']} eyes")
+    print(f"Ear Shape: {character['ear_shape']} ears")
+    print(f"Hair Color: {character['hair_color']}")
+    print(f"Hair Style: {character['hair_style']} hair")
+    print(f"Clothing: {character['clothing']}")
+    print(f"Shoes: {character['shoes']}")
+
+# Generate and display the character
+my_character = generate_character()
+display_character(my_character)
